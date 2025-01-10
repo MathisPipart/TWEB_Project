@@ -1,0 +1,9 @@
+[submodule "solution/MainServer"]
+	path = solution/MainServer
+	url = https://github.com/MathisPipart/MainServer.git
+[submodule "solution/SpringBootServer"]
+	path = solution/SpringBootServer
+	url = https://github.com/MathisPipart/SpringBootsServer.git
+[submodule "solution/MongoDBServer"]
+	path = solution/MongoDBServer
+	url = https://github.com/MathisPipart/MongoDBServer.git
