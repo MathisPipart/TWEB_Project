@@ -27,3 +27,31 @@ At the top, to the left of the ‘Run’ button, choose CurrentFile then run the
 - solution/SpringBootServer/src/main/java/it/unito/iumtweb/springboot/FirstExampleApplication.java
 
 Finally, access the site in Google Chrome at the URL: http://localhost:3000/  
+
+## WARNING: IT'S NOT OVER YET
+
+**For Rotten Tomatoes reviews:**
+- Send a message from any chat on the site
+- Now you can go into mongoDBCompass
+- Go to the chatmessages collection in chatDB.
+- Add the file final_reviews.csv from this link: https://drive.google.com/file/d/1X1o7cpBlaoZby3kOAqMp8-eWwNEoZYok/view?usp=sharing
+- Change the type:
+  - room(Int32): change to String
+  - message(Mixed): change to String
+- Click on Import
+
+*In additionalNoteBook/MongoDB I've put the notebook I used to modify the Rotten Tomatoes reviews to adapt them to our site.*
+
+**To have the details of each movie when you click on it you must :**
+- Go to pgAdmin4
+- Create a new table: details_movie
+- Go to the columns tab and enter the columns below:
+![Image1](additionalNoteBook/PSQL/img/1.columns_name.png)
+![Image2](additionalNoteBook/PSQL/img/2.columns_name.png)
+- Then right-click on the details_movie table > Import/Export data
+- Insert the .csv file from this link: https://drive.google.com/file/d/1gqXiQM4zEp458HyhvLPq_4x4oyQgvlUI/view?usp=sharing
+- Click on OK
+
+I've also included the notebook with which I've synchronised all the film information in additionalNoteBook/PSQL/Notebook.
+
+## You now have all the information you need to make full use of our website.
