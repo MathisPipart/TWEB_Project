@@ -50,6 +50,7 @@ Finally, access the site in Google Chrome at the URL: http://localhost:3000/
 ![Image2](additionalNoteBook/PSQL/img/2.columns_name.png)
 - Then right-click on the details_movie table > Import/Export data
 - Insert the .csv file from this link: https://drive.google.com/file/d/1gqXiQM4zEp458HyhvLPq_4x4oyQgvlUI/view?usp=sharing
+- Options>Delimiter>;
 - Click on OK
 
 I've also included the notebook with which I've synchronised all the film information in additionalNoteBook/PSQL/Notebook.
